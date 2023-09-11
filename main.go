@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"actions/add"
+)
 
 func main() {
-	fmt.Println("sad")
+	add.Add(1, 2)
 }
